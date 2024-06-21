@@ -1184,4 +1184,4 @@ module.exports = {
     },
 
   ]
-}
+};
