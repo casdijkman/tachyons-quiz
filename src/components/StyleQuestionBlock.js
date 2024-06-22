@@ -45,7 +45,8 @@ const StyleQuestionBlock = React.createClass({
     const comment = (
       <code className="db w-100 grey2 i">
         {'// '}
-        {this.props.tachyonsStyle.categories[0] + ': ' + this.props.tachyonsStyle.categories[1] + '. '}
+        {this.props.tachyonsStyle.categories[0]}
+        {' ('}
         <a
           className="grey2"
           target="_blank"
@@ -53,7 +54,8 @@ const StyleQuestionBlock = React.createClass({
           rel="noopener noreferrer"
         >
           See documentation
-        </a>.
+        </a>
+        {')'}
       </code>
     );
     const selector = this.props.isEditable

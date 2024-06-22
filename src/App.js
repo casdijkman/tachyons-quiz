@@ -9,45 +9,43 @@ class App extends Component {
     return (
       <div className="vh-100 pa4 mw7 center">
         <h1 className="f5 mt3 mb4 sans-serif">
-          Are you a Tachyons Pro?
+          Are you a C4S Pro?
         </h1>
 
         <p className="f5 mt4 mb5 sans-serif">
-          Learn Tachyons by memorizing the class names.
+          Learn C4S by memorizing the class names.
           {' '}
           <a
-            href="http://tachyons.io"
+            href="http://c4s.cdijkman.nl"
             target="_blank"
             className="blue"
             rel="noopener noreferrer"
           >
-            What is Tachyons?
+            What is C4S?
           </a>
         </p>
 
         <TerminalWindow questions={QUESTIONS} myData={myData} />
 
-        <p className="f6 mt5 sans-serif">
-          See an error?
-          {' '}
+        <p className="f6 sans-serif mt5">
           <a
-            href="https://github.com/mkwng/tachyons-quiz"
+            href="https://tachyonspro.netlify.app/"
             target="_blank"
             className="blue"
             rel="noopener noreferrer"
+            data-tooltip="Tachyons Pro"
           >
-            Submit an issue
+            Original app
           </a>
-        </p>
-
-        <p className="f6 sans-serif">
-          Say hi on Twitter:
+          {' '}
+          developed by:
           {' '}
           <a
             href="https://twitter.com/mkwng/"
             target="_blank"
             className="blue"
             rel="noopener noreferrer"
+            data-tooltip="Michael Wang"
           >
             @mkwng
           </a>
