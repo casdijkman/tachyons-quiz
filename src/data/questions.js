@@ -34,7 +34,7 @@ module.exports = {
     },
     {
       "id": 4,
-      "question": "-webkit-background-clip: text; background-clip: text;",
+      "question": "background-clip: text;",
       "answer": "bg-clip-text",
       "categories": [
         "Background-clip"
@@ -88,7 +88,7 @@ module.exports = {
     },
     {
       "id": 10,
-      "question": "-o-object-fit: contain; object-fit: contain;",
+      "question": "object-fit: contain;",
       "answer": "contain",
       "categories": [
         "Object-fit"
@@ -97,7 +97,7 @@ module.exports = {
     },
     {
       "id": 11,
-      "question": "-o-object-fit: cover; object-fit: cover;",
+      "question": "object-fit: cover;",
       "answer": "cover",
       "categories": [
         "Object-fit"
@@ -106,7 +106,7 @@ module.exports = {
     },
     {
       "id": 12,
-      "question": "-o-object-fit: fill; object-fit: fill;",
+      "question": "object-fit: fill;",
       "answer": "fill",
       "categories": [
         "Object-fit"
@@ -115,7 +115,7 @@ module.exports = {
     },
     {
       "id": 13,
-      "question": "-webkit-user-select: none; -moz-user-select: none; user-select: none;",
+      "question": "user-select: none;",
       "answer": "user-select-none",
       "categories": [
         "User-select"
@@ -124,7 +124,7 @@ module.exports = {
     },
     {
       "id": 14,
-      "question": "-webkit-user-select: all; -moz-user-select: all; user-select: all;",
+      "question": "user-select: all;",
       "answer": "user-select-all",
       "categories": [
         "User-select"
@@ -133,7 +133,7 @@ module.exports = {
     },
     {
       "id": 15,
-      "question": "-webkit-user-select: text; -moz-user-select: text; user-select: text;",
+      "question": "user-select: text;",
       "answer": "user-select-text",
       "categories": [
         "User-select"
