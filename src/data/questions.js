@@ -718,7 +718,7 @@ module.exports = {
     },
     {
       "id": 80,
-      "question": "transition: all 0.5s ease-in-out;",
+      "question": "transition: all 0.5s ease-in-out; /* Speed: slow */",
       "answer": "transition-slow",
       "categories": [
         "Transition"
@@ -727,7 +727,7 @@ module.exports = {
     },
     {
       "id": 81,
-      "question": "transition: all 0.25s ease-in-out;",
+      "question": "transition: all 0.25s ease-in-out; /* Speed: medium */",
       "answer": "transition-medium",
       "categories": [
         "Transition"
@@ -736,7 +736,7 @@ module.exports = {
     },
     {
       "id": 82,
-      "question": "transition: all 0.15s ease-in-out;",
+      "question": "transition: all 0.15s ease-in-out; /* Speed: fast */",
       "answer": "transition-fast",
       "categories": [
         "Transition"
@@ -745,7 +745,7 @@ module.exports = {
     },
     {
       "id": 83,
-      "question": "transition: transform 0.5s ease-in-out;",
+      "question": "transition: transform 0.5s ease-in-out; /* Speed: slow */",
       "answer": "transition-transform-slow",
       "categories": [
         "Transition"
@@ -754,7 +754,7 @@ module.exports = {
     },
     {
       "id": 84,
-      "question": "transition: transform 0.25s ease-in-out;",
+      "question": "transition: transform 0.25s ease-in-out; /* Speed: medium */",
       "answer": "transition-transform-medium",
       "categories": [
         "Transition"
@@ -763,7 +763,7 @@ module.exports = {
     },
     {
       "id": 85,
-      "question": "transition: transform 0.15s ease-in-out;",
+      "question": "transition: transform 0.15s ease-in-out; /* Speed: fast */",
       "answer": "transition-transform-fast",
       "categories": [
         "Transition"
@@ -799,7 +799,7 @@ module.exports = {
     },
     {
       "id": 89,
-      "question": "box-shadow: 0 0.125rem 0.5rem 0.125rem rgba(0, 0, 0, 0.2);",
+      "question": "box-shadow: 0 0.125rem 0.5rem 0.125rem rgba(0, 0, 0, 0.2); /* Shadow size: small */",
       "answer": "shadow-small",
       "categories": [
         "Box-shadow"
@@ -817,7 +817,7 @@ module.exports = {
     },
     {
       "id": 91,
-      "question": "box-shadow: 0 1rem 2rem 0.25rem rgba(0, 0, 0, 0.2);",
+      "question": "box-shadow: 0 1rem 2rem 0.25rem rgba(0, 0, 0, 0.2); /* Shadow size: big */",
       "answer": "shadow-big",
       "categories": [
         "Box-shadow"
