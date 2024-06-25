@@ -10,21 +10,29 @@ const StyleQuestionBlock = React.createClass({
   componentDidMount: function () {
     setTimeout(function () {
       if (this.textInput) this.textInput.focus();
+      this.updateCssHighlighting();
     }.bind(this), 50);
-    if (window.Prism) {
-      window.Prism.highlightElement(this.propertyCode);
-    }
   },
 
   componentDidUpdate: function () {
-    if (window.Prism) {
-      window.Prism.highlightElement(this.propertyCode);
-    }
+    setTimeout(function () {
+      this.updateCssHighlighting();
+    }.bind(this), 50);
+  },
+
+  updateCssHighlighting() {
+    const highlightSet = document.querySelectorAll('code.language-css');
+    Array.from(highlightSet).forEach((element) => {
+      // querySelector hack to avoid highlighting all code blocks again every call ¯\_(ツ)_/¯
+      if ('Prism' in window && !Boolean(element.querySelector('span'))) {
+        window.Prism.highlightElement(element);
+      }
+    })
   },
 
   onAnswerChange: function (e) {
     this.setState({ answer: e.target.value });
-    e.target.style.width = Math.max(e.target.value.length, 1) + 'ch';
+    e.target.style.width = `${Math.max(e.target.value.length, 1) + 2}ch`;
   },
 
   onSubmit: function (e) {
@@ -43,7 +51,7 @@ const StyleQuestionBlock = React.createClass({
   render: function () {
     const isCorrect = this.props.answer === this.props.tachyonsStyle.answer;
     const comment = (
-      <code className="db w-100 grey2 i">
+      <code className="db w-100 grey2">
         {'// '}
         {this.props.tachyonsStyle.categories[0]}
         {' ('}
@@ -63,11 +71,13 @@ const StyleQuestionBlock = React.createClass({
         <code className="db w-100 bg-white-03">
           <form onSubmit={this.onSubmit} className="dib green">
             .<input
-              className="w1 outline-0 bn pa0 bg-transparent green"
+              className="ph1 w2 outline-0 bn p0 bg-transparent green"
               type="text"
               value={this.state.answer}
               onChange={this.onAnswerChange}
               ref={(input) => { this.textInput = input; }}
+              autoCorrect="off"
+              autoCapitalize="off"
             />
           </form>
           {' {'}
@@ -79,17 +89,21 @@ const StyleQuestionBlock = React.createClass({
             <i className="material-icons ph1 v-btm">{isCorrect ? 'check_circle' : 'error'}</i>
           </span>
           {' { '}
-          <span className={isCorrect ? 'dn grey2 i' : 'di grey2 i'}>
+          <span className={isCorrect ? 'dn grey2' : 'di grey2'}>
             {' // Correct answer: ' + this.props.tachyonsStyle.answer}
           </span>
         </code>
       );
     const property = (
-      <code
-        className="db w-100 language-css"
-        ref={(code) => { this.propertyCode = code; }}>
-        {this.props.tachyonsStyle.question}
-      </code>
+      this.props.tachyonsStyle.question.split('\n').map((questionLine, index) =>
+        <code
+          className="db w-100 language-css"
+          key={index}
+          data-highlighted="false"
+        >
+          {questionLine}
+        </code>
+      )
     );
     return (
       <pre className="w-100 tl mv0" onClick={this.clickPre} >

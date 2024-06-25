@@ -24,6 +24,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "scss": "sass -s compressed --no-source-map src/scss/main.scss src/index.css",
+    "lint": "yarn lint:scss",
     "lint:scss": "stylelint src/**/*.scss"
   },
   "browserslist": {

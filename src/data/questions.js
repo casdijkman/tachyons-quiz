@@ -160,7 +160,7 @@ module.exports = {
     },
     {
       "id": 18,
-      "question": "border-style: solid; border-width: 1px;",
+      "question": "border-style: solid;\nborder-width: 1px;",
       "answer": "ba",
       "categories": [
         "Border"
@@ -169,7 +169,7 @@ module.exports = {
     },
     {
       "id": 19,
-      "question": "border-top-style: solid; border-top-width: 1px;",
+      "question": "border-top-style: solid;\nborder-top-width: 1px;",
       "answer": "bt",
       "categories": [
         "Border"
@@ -178,7 +178,7 @@ module.exports = {
     },
     {
       "id": 20,
-      "question": "border-right-style: solid; border-right-width: 1px;",
+      "question": "border-right-style: solid;\nborder-right-width: 1px;",
       "answer": "br",
       "categories": [
         "Border"
@@ -187,7 +187,7 @@ module.exports = {
     },
     {
       "id": 21,
-      "question": "border-bottom-style: solid; border-bottom-width: 1px;",
+      "question": "border-bottom-style: solid;\nborder-bottom-width: 1px;",
       "answer": "bb",
       "categories": [
         "Border"
@@ -196,7 +196,7 @@ module.exports = {
     },
     {
       "id": 22,
-      "question": "border-left-style: solid; border-left-width: 1px;",
+      "question": "border-left-style: solid;\nborder-left-width: 1px;",
       "answer": "bl",
       "categories": [
         "Border"
@@ -205,7 +205,7 @@ module.exports = {
     },
     {
       "id": 23,
-      "question": "border-style: none; border-width: 0;",
+      "question": "border-style: none;\nborder-width: 0;",
       "answer": "bn",
       "categories": [
         "Border"
@@ -214,7 +214,7 @@ module.exports = {
     },
     {
       "id": 24,
-      "question": "border-width: 0.125rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nborder-width: 0.125rem;",
       "answer": "bw1",
       "categories": [
         "Border-width"
@@ -223,7 +223,7 @@ module.exports = {
     },
     {
       "id": 25,
-      "question": "border-width: 0.25rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nborder-width: 0.25rem;",
       "answer": "bw2",
       "categories": [
         "Border-width"
@@ -232,7 +232,7 @@ module.exports = {
     },
     {
       "id": 26,
-      "question": "border-width: 0.5rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nborder-width: 0.5rem;",
       "answer": "bw3",
       "categories": [
         "Border-width"
@@ -241,7 +241,7 @@ module.exports = {
     },
     {
       "id": 27,
-      "question": "border-width: 1rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nborder-width: 1rem;",
       "answer": "bw4",
       "categories": [
         "Border-width"
@@ -250,7 +250,7 @@ module.exports = {
     },
     {
       "id": 28,
-      "question": "border-width: 2rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nborder-width: 2rem;",
       "answer": "bw5",
       "categories": [
         "Border-width"
@@ -718,7 +718,7 @@ module.exports = {
     },
     {
       "id": 80,
-      "question": "transition: all 0.5s ease-in-out; /* Speed: slow */",
+      "question": "/* Speed: slow */\ntransition: all 0.5s ease-in-out;",
       "answer": "transition-slow",
       "categories": [
         "Transition"
@@ -727,7 +727,7 @@ module.exports = {
     },
     {
       "id": 81,
-      "question": "transition: all 0.25s ease-in-out; /* Speed: medium */",
+      "question": "/* Speed: medium */\ntransition: all 0.25s ease-in-out;",
       "answer": "transition-medium",
       "categories": [
         "Transition"
@@ -736,7 +736,7 @@ module.exports = {
     },
     {
       "id": 82,
-      "question": "transition: all 0.15s ease-in-out; /* Speed: fast */",
+      "question": "/* Speed: fast */\ntransition: all 0.15s ease-in-out;",
       "answer": "transition-fast",
       "categories": [
         "Transition"
@@ -745,7 +745,7 @@ module.exports = {
     },
     {
       "id": 83,
-      "question": "transition: transform 0.5s ease-in-out; /* Speed: slow */",
+      "question": "/* Speed: slow */\ntransition: transform 0.5s ease-in-out;",
       "answer": "transition-transform-slow",
       "categories": [
         "Transition"
@@ -754,7 +754,7 @@ module.exports = {
     },
     {
       "id": 84,
-      "question": "transition: transform 0.25s ease-in-out; /* Speed: medium */",
+      "question": "/* Speed: medium */\ntransition: transform 0.25s ease-in-out;",
       "answer": "transition-transform-medium",
       "categories": [
         "Transition"
@@ -763,7 +763,7 @@ module.exports = {
     },
     {
       "id": 85,
-      "question": "transition: transform 0.15s ease-in-out; /* Speed: fast */",
+      "question": "/* Speed: fast */\ntransition: transform 0.15s ease-in-out;",
       "answer": "transition-transform-fast",
       "categories": [
         "Transition"
@@ -799,7 +799,7 @@ module.exports = {
     },
     {
       "id": 89,
-      "question": "box-shadow: 0 0.125rem 0.5rem 0.125rem rgba(0, 0, 0, 0.2); /* Shadow size: small */",
+      "question": "/* Shadow size: small */\nbox-shadow: 0 0.125rem 0.5rem 0.125rem rgba(0, 0, 0, 0.2);",
       "answer": "shadow-small",
       "categories": [
         "Box-shadow"
@@ -817,7 +817,7 @@ module.exports = {
     },
     {
       "id": 91,
-      "question": "box-shadow: 0 1rem 2rem 0.25rem rgba(0, 0, 0, 0.2); /* Shadow size: big */",
+      "question": "/* Shadow size: big */\nbox-shadow: 0 1rem 2rem 0.25rem rgba(0, 0, 0, 0.2);",
       "answer": "shadow-big",
       "categories": [
         "Box-shadow"
@@ -1006,7 +1006,7 @@ module.exports = {
     },
     {
       "id": 112,
-      "question": "border-collapse: collapse; border-spacing: 0;",
+      "question": "border-collapse: collapse;\nborder-spacing: 0;",
       "answer": "collapse",
       "categories": [
         "Table"
@@ -1078,7 +1078,7 @@ module.exports = {
     },
     {
       "id": 120,
-      "question": "padding: 0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\npadding: 0.25rem;",
       "answer": "p1",
       "categories": [
         "Padding"
@@ -1087,7 +1087,7 @@ module.exports = {
     },
     {
       "id": 121,
-      "question": "padding: 0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\npadding: 0.5rem;",
       "answer": "p2",
       "categories": [
         "Padding"
@@ -1096,7 +1096,7 @@ module.exports = {
     },
     {
       "id": 122,
-      "question": "padding: 1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\npadding: 1rem;",
       "answer": "p3",
       "categories": [
         "Padding"
@@ -1105,7 +1105,7 @@ module.exports = {
     },
     {
       "id": 123,
-      "question": "padding: 2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\npadding: 2rem;",
       "answer": "p4",
       "categories": [
         "Padding"
@@ -1114,7 +1114,7 @@ module.exports = {
     },
     {
       "id": 124,
-      "question": "padding: 4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\npadding: 4rem;",
       "answer": "p5",
       "categories": [
         "Padding"
@@ -1123,7 +1123,7 @@ module.exports = {
     },
     {
       "id": 125,
-      "question": "padding: 8rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\npadding: 8rem;",
       "answer": "p6",
       "categories": [
         "Padding"
@@ -1132,7 +1132,7 @@ module.exports = {
     },
     {
       "id": 126,
-      "question": "padding: 16rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\npadding: 16rem;",
       "answer": "p7",
       "categories": [
         "Padding"
@@ -1150,7 +1150,7 @@ module.exports = {
     },
     {
       "id": 128,
-      "question": "padding-top: 0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\npadding-top: 0.25rem;",
       "answer": "pt1",
       "categories": [
         "Padding"
@@ -1159,7 +1159,7 @@ module.exports = {
     },
     {
       "id": 129,
-      "question": "padding-top: 0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\npadding-top: 0.5rem;",
       "answer": "pt2",
       "categories": [
         "Padding"
@@ -1168,7 +1168,7 @@ module.exports = {
     },
     {
       "id": 130,
-      "question": "padding-top: 1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\npadding-top: 1rem;",
       "answer": "pt3",
       "categories": [
         "Padding"
@@ -1177,7 +1177,7 @@ module.exports = {
     },
     {
       "id": 131,
-      "question": "padding-top: 2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\npadding-top: 2rem;",
       "answer": "pt4",
       "categories": [
         "Padding"
@@ -1186,7 +1186,7 @@ module.exports = {
     },
     {
       "id": 132,
-      "question": "padding-top: 4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\npadding-top: 4rem;",
       "answer": "pt5",
       "categories": [
         "Padding"
@@ -1195,7 +1195,7 @@ module.exports = {
     },
     {
       "id": 133,
-      "question": "padding-top: 8rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\npadding-top: 8rem;",
       "answer": "pt6",
       "categories": [
         "Padding"
@@ -1204,7 +1204,7 @@ module.exports = {
     },
     {
       "id": 134,
-      "question": "padding-top: 16rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\npadding-top: 16rem;",
       "answer": "pt7",
       "categories": [
         "Padding"
@@ -1222,7 +1222,7 @@ module.exports = {
     },
     {
       "id": 136,
-      "question": "padding-right: 0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\npadding-right: 0.25rem;",
       "answer": "pr1",
       "categories": [
         "Padding"
@@ -1231,7 +1231,7 @@ module.exports = {
     },
     {
       "id": 137,
-      "question": "padding-right: 0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\npadding-right: 0.5rem;",
       "answer": "pr2",
       "categories": [
         "Padding"
@@ -1240,7 +1240,7 @@ module.exports = {
     },
     {
       "id": 138,
-      "question": "padding-right: 1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\npadding-right: 1rem;",
       "answer": "pr3",
       "categories": [
         "Padding"
@@ -1249,7 +1249,7 @@ module.exports = {
     },
     {
       "id": 139,
-      "question": "padding-right: 2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\npadding-right: 2rem;",
       "answer": "pr4",
       "categories": [
         "Padding"
@@ -1258,7 +1258,7 @@ module.exports = {
     },
     {
       "id": 140,
-      "question": "padding-right: 4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\npadding-right: 4rem;",
       "answer": "pr5",
       "categories": [
         "Padding"
@@ -1267,7 +1267,7 @@ module.exports = {
     },
     {
       "id": 141,
-      "question": "padding-right: 8rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\npadding-right: 8rem;",
       "answer": "pr6",
       "categories": [
         "Padding"
@@ -1276,7 +1276,7 @@ module.exports = {
     },
     {
       "id": 142,
-      "question": "padding-right: 16rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\npadding-right: 16rem;",
       "answer": "pr7",
       "categories": [
         "Padding"
@@ -1294,7 +1294,7 @@ module.exports = {
     },
     {
       "id": 144,
-      "question": "padding-bottom: 0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\npadding-bottom: 0.25rem;",
       "answer": "pb1",
       "categories": [
         "Padding"
@@ -1303,7 +1303,7 @@ module.exports = {
     },
     {
       "id": 145,
-      "question": "padding-bottom: 0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\npadding-bottom: 0.5rem;",
       "answer": "pb2",
       "categories": [
         "Padding"
@@ -1312,7 +1312,7 @@ module.exports = {
     },
     {
       "id": 146,
-      "question": "padding-bottom: 1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\npadding-bottom: 1rem;",
       "answer": "pb3",
       "categories": [
         "Padding"
@@ -1321,7 +1321,7 @@ module.exports = {
     },
     {
       "id": 147,
-      "question": "padding-bottom: 2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\npadding-bottom: 2rem;",
       "answer": "pb4",
       "categories": [
         "Padding"
@@ -1330,7 +1330,7 @@ module.exports = {
     },
     {
       "id": 148,
-      "question": "padding-bottom: 4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\npadding-bottom: 4rem;",
       "answer": "pb5",
       "categories": [
         "Padding"
@@ -1339,7 +1339,7 @@ module.exports = {
     },
     {
       "id": 149,
-      "question": "padding-bottom: 8rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\npadding-bottom: 8rem;",
       "answer": "pb6",
       "categories": [
         "Padding"
@@ -1348,7 +1348,7 @@ module.exports = {
     },
     {
       "id": 150,
-      "question": "padding-bottom: 16rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\npadding-bottom: 16rem;",
       "answer": "pb7",
       "categories": [
         "Padding"
@@ -1366,7 +1366,7 @@ module.exports = {
     },
     {
       "id": 152,
-      "question": "padding-left: 0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\npadding-left: 0.25rem;",
       "answer": "pl1",
       "categories": [
         "Padding"
@@ -1375,7 +1375,7 @@ module.exports = {
     },
     {
       "id": 153,
-      "question": "padding-left: 0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\npadding-left: 0.5rem;",
       "answer": "pl2",
       "categories": [
         "Padding"
@@ -1384,7 +1384,7 @@ module.exports = {
     },
     {
       "id": 154,
-      "question": "padding-left: 1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\npadding-left: 1rem;",
       "answer": "pl3",
       "categories": [
         "Padding"
@@ -1393,7 +1393,7 @@ module.exports = {
     },
     {
       "id": 155,
-      "question": "padding-left: 2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\npadding-left: 2rem;",
       "answer": "pl4",
       "categories": [
         "Padding"
@@ -1402,7 +1402,7 @@ module.exports = {
     },
     {
       "id": 156,
-      "question": "padding-left: 4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\npadding-left: 4rem;",
       "answer": "pl5",
       "categories": [
         "Padding"
@@ -1411,7 +1411,7 @@ module.exports = {
     },
     {
       "id": 157,
-      "question": "padding-left: 8rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\npadding-left: 8rem;",
       "answer": "pl6",
       "categories": [
         "Padding"
@@ -1420,7 +1420,7 @@ module.exports = {
     },
     {
       "id": 158,
-      "question": "padding-left: 16rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\npadding-left: 16rem;",
       "answer": "pl7",
       "categories": [
         "Padding"
@@ -1429,7 +1429,7 @@ module.exports = {
     },
     {
       "id": 159,
-      "question": "padding-left: 0; padding-right: 0;",
+      "question": "padding-left: 0;\npadding-right: 0;",
       "answer": "ph0",
       "categories": [
         "Padding"
@@ -1438,7 +1438,7 @@ module.exports = {
     },
     {
       "id": 160,
-      "question": "padding-left: 0.25rem; padding-right: 0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\npadding-left: 0.25rem;\npadding-right: 0.25rem;",
       "answer": "ph1",
       "categories": [
         "Padding"
@@ -1447,7 +1447,7 @@ module.exports = {
     },
     {
       "id": 161,
-      "question": "padding-left: 0.5rem; padding-right: 0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\npadding-left: 0.5rem;\npadding-right: 0.5rem;",
       "answer": "ph2",
       "categories": [
         "Padding"
@@ -1456,7 +1456,7 @@ module.exports = {
     },
     {
       "id": 162,
-      "question": "padding-left: 1rem; padding-right: 1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\npadding-left: 1rem;\npadding-right: 1rem;",
       "answer": "ph3",
       "categories": [
         "Padding"
@@ -1465,7 +1465,7 @@ module.exports = {
     },
     {
       "id": 163,
-      "question": "padding-left: 2rem; padding-right: 2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\npadding-left: 2rem;\npadding-right: 2rem;",
       "answer": "ph4",
       "categories": [
         "Padding"
@@ -1474,7 +1474,7 @@ module.exports = {
     },
     {
       "id": 164,
-      "question": "padding-left: 4rem; padding-right: 4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\npadding-left: 4rem;\npadding-right: 4rem;",
       "answer": "ph5",
       "categories": [
         "Padding"
@@ -1483,7 +1483,7 @@ module.exports = {
     },
     {
       "id": 165,
-      "question": "padding-left: 8rem; padding-right: 8rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\npadding-left: 8rem;\npadding-right: 8rem;",
       "answer": "ph6",
       "categories": [
         "Padding"
@@ -1492,7 +1492,7 @@ module.exports = {
     },
     {
       "id": 166,
-      "question": "padding-left: 16rem; padding-right: 16rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\npadding-left: 16rem;\npadding-right: 16rem;",
       "answer": "ph7",
       "categories": [
         "Padding"
@@ -1501,7 +1501,7 @@ module.exports = {
     },
     {
       "id": 167,
-      "question": "padding-top: 0; padding-bottom: 0;",
+      "question": "padding-top: 0;\npadding-bottom: 0;",
       "answer": "pv0",
       "categories": [
         "Padding"
@@ -1510,7 +1510,7 @@ module.exports = {
     },
     {
       "id": 168,
-      "question": "padding-top: 0.25rem; padding-bottom: 0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\npadding-top: 0.25rem;\npadding-bottom: 0.25rem;",
       "answer": "pv1",
       "categories": [
         "Padding"
@@ -1519,7 +1519,7 @@ module.exports = {
     },
     {
       "id": 169,
-      "question": "padding-top: 0.5rem; padding-bottom: 0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\npadding-top: 0.5rem;\npadding-bottom: 0.5rem;",
       "answer": "pv2",
       "categories": [
         "Padding"
@@ -1528,7 +1528,7 @@ module.exports = {
     },
     {
       "id": 170,
-      "question": "padding-top: 1rem; padding-bottom: 1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\npadding-top: 1rem;\npadding-bottom: 1rem;",
       "answer": "pv3",
       "categories": [
         "Padding"
@@ -1537,7 +1537,7 @@ module.exports = {
     },
     {
       "id": 171,
-      "question": "padding-top: 2rem; padding-bottom: 2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\npadding-top: 2rem;\npadding-bottom: 2rem;",
       "answer": "pv4",
       "categories": [
         "Padding"
@@ -1546,7 +1546,7 @@ module.exports = {
     },
     {
       "id": 172,
-      "question": "padding-top: 4rem; padding-bottom: 4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\npadding-top: 4rem;\npadding-bottom: 4rem;",
       "answer": "pv5",
       "categories": [
         "Padding"
@@ -1555,7 +1555,7 @@ module.exports = {
     },
     {
       "id": 173,
-      "question": "padding-top: 8rem; padding-bottom: 8rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\npadding-top: 8rem;\npadding-bottom: 8rem;",
       "answer": "pv6",
       "categories": [
         "Padding"
@@ -1564,7 +1564,7 @@ module.exports = {
     },
     {
       "id": 174,
-      "question": "padding-top: 16rem; padding-bottom: 16rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\npadding-top: 16rem;\npadding-bottom: 16rem;",
       "answer": "pv7",
       "categories": [
         "Padding"
@@ -1582,7 +1582,7 @@ module.exports = {
     },
     {
       "id": 176,
-      "question": "margin: 0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmargin: 0.25rem;",
       "answer": "m1",
       "categories": [
         "Margin"
@@ -1591,7 +1591,7 @@ module.exports = {
     },
     {
       "id": 177,
-      "question": "margin: 0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmargin: 0.5rem;",
       "answer": "m2",
       "categories": [
         "Margin"
@@ -1600,7 +1600,7 @@ module.exports = {
     },
     {
       "id": 178,
-      "question": "margin: 1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmargin: 1rem;",
       "answer": "m3",
       "categories": [
         "Margin"
@@ -1609,7 +1609,7 @@ module.exports = {
     },
     {
       "id": 179,
-      "question": "margin: 2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmargin: 2rem;",
       "answer": "m4",
       "categories": [
         "Margin"
@@ -1618,7 +1618,7 @@ module.exports = {
     },
     {
       "id": 180,
-      "question": "margin: 4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmargin: 4rem;",
       "answer": "m5",
       "categories": [
         "Margin"
@@ -1627,7 +1627,7 @@ module.exports = {
     },
     {
       "id": 181,
-      "question": "margin: 8rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\nmargin: 8rem;",
       "answer": "m6",
       "categories": [
         "Margin"
@@ -1636,7 +1636,7 @@ module.exports = {
     },
     {
       "id": 182,
-      "question": "margin: 16rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\nmargin: 16rem;",
       "answer": "m7",
       "categories": [
         "Margin"
@@ -1654,7 +1654,7 @@ module.exports = {
     },
     {
       "id": 184,
-      "question": "margin-top: 0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmargin-top: 0.25rem;",
       "answer": "mt1",
       "categories": [
         "Margin"
@@ -1663,7 +1663,7 @@ module.exports = {
     },
     {
       "id": 185,
-      "question": "margin-top: 0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmargin-top: 0.5rem;",
       "answer": "mt2",
       "categories": [
         "Margin"
@@ -1672,7 +1672,7 @@ module.exports = {
     },
     {
       "id": 186,
-      "question": "margin-top: 1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmargin-top: 1rem;",
       "answer": "mt3",
       "categories": [
         "Margin"
@@ -1681,7 +1681,7 @@ module.exports = {
     },
     {
       "id": 187,
-      "question": "margin-top: 2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmargin-top: 2rem;",
       "answer": "mt4",
       "categories": [
         "Margin"
@@ -1690,7 +1690,7 @@ module.exports = {
     },
     {
       "id": 188,
-      "question": "margin-top: 4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmargin-top: 4rem;",
       "answer": "mt5",
       "categories": [
         "Margin"
@@ -1699,7 +1699,7 @@ module.exports = {
     },
     {
       "id": 189,
-      "question": "margin-top: 8rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\nmargin-top: 8rem;",
       "answer": "mt6",
       "categories": [
         "Margin"
@@ -1708,7 +1708,7 @@ module.exports = {
     },
     {
       "id": 190,
-      "question": "margin-top: 16rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\nmargin-top: 16rem;",
       "answer": "mt7",
       "categories": [
         "Margin"
@@ -1735,7 +1735,7 @@ module.exports = {
     },
     {
       "id": 193,
-      "question": "margin-right: 0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmargin-right: 0.25rem;",
       "answer": "mr1",
       "categories": [
         "Margin"
@@ -1744,7 +1744,7 @@ module.exports = {
     },
     {
       "id": 194,
-      "question": "margin-right: 0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmargin-right: 0.5rem;",
       "answer": "mr2",
       "categories": [
         "Margin"
@@ -1753,7 +1753,7 @@ module.exports = {
     },
     {
       "id": 195,
-      "question": "margin-right: 1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmargin-right: 1rem;",
       "answer": "mr3",
       "categories": [
         "Margin"
@@ -1762,7 +1762,7 @@ module.exports = {
     },
     {
       "id": 196,
-      "question": "margin-right: 2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmargin-right: 2rem;",
       "answer": "mr4",
       "categories": [
         "Margin"
@@ -1771,7 +1771,7 @@ module.exports = {
     },
     {
       "id": 197,
-      "question": "margin-right: 4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmargin-right: 4rem;",
       "answer": "mr5",
       "categories": [
         "Margin"
@@ -1780,7 +1780,7 @@ module.exports = {
     },
     {
       "id": 198,
-      "question": "margin-right: 8rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\nmargin-right: 8rem;",
       "answer": "mr6",
       "categories": [
         "Margin"
@@ -1789,7 +1789,7 @@ module.exports = {
     },
     {
       "id": 199,
-      "question": "margin-right: 16rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\nmargin-right: 16rem;",
       "answer": "mr7",
       "categories": [
         "Margin"
@@ -1816,7 +1816,7 @@ module.exports = {
     },
     {
       "id": 202,
-      "question": "margin-bottom: 0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmargin-bottom: 0.25rem;",
       "answer": "mb1",
       "categories": [
         "Margin"
@@ -1825,7 +1825,7 @@ module.exports = {
     },
     {
       "id": 203,
-      "question": "margin-bottom: 0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmargin-bottom: 0.5rem;",
       "answer": "mb2",
       "categories": [
         "Margin"
@@ -1834,7 +1834,7 @@ module.exports = {
     },
     {
       "id": 204,
-      "question": "margin-bottom: 1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmargin-bottom: 1rem;",
       "answer": "mb3",
       "categories": [
         "Margin"
@@ -1843,7 +1843,7 @@ module.exports = {
     },
     {
       "id": 205,
-      "question": "margin-bottom: 2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmargin-bottom: 2rem;",
       "answer": "mb4",
       "categories": [
         "Margin"
@@ -1852,7 +1852,7 @@ module.exports = {
     },
     {
       "id": 206,
-      "question": "margin-bottom: 4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmargin-bottom: 4rem;",
       "answer": "mb5",
       "categories": [
         "Margin"
@@ -1861,7 +1861,7 @@ module.exports = {
     },
     {
       "id": 207,
-      "question": "margin-bottom: 8rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\nmargin-bottom: 8rem;",
       "answer": "mb6",
       "categories": [
         "Margin"
@@ -1870,7 +1870,7 @@ module.exports = {
     },
     {
       "id": 208,
-      "question": "margin-bottom: 16rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\nmargin-bottom: 16rem;",
       "answer": "mb7",
       "categories": [
         "Margin"
@@ -1897,7 +1897,7 @@ module.exports = {
     },
     {
       "id": 211,
-      "question": "margin-left: 0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmargin-left: 0.25rem;",
       "answer": "ml1",
       "categories": [
         "Margin"
@@ -1906,7 +1906,7 @@ module.exports = {
     },
     {
       "id": 212,
-      "question": "margin-left: 0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmargin-left: 0.5rem;",
       "answer": "ml2",
       "categories": [
         "Margin"
@@ -1915,7 +1915,7 @@ module.exports = {
     },
     {
       "id": 213,
-      "question": "margin-left: 1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmargin-left: 1rem;",
       "answer": "ml3",
       "categories": [
         "Margin"
@@ -1924,7 +1924,7 @@ module.exports = {
     },
     {
       "id": 214,
-      "question": "margin-left: 2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmargin-left: 2rem;",
       "answer": "ml4",
       "categories": [
         "Margin"
@@ -1933,7 +1933,7 @@ module.exports = {
     },
     {
       "id": 215,
-      "question": "margin-left: 4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmargin-left: 4rem;",
       "answer": "ml5",
       "categories": [
         "Margin"
@@ -1942,7 +1942,7 @@ module.exports = {
     },
     {
       "id": 216,
-      "question": "margin-left: 8rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\nmargin-left: 8rem;",
       "answer": "ml6",
       "categories": [
         "Margin"
@@ -1951,7 +1951,7 @@ module.exports = {
     },
     {
       "id": 217,
-      "question": "margin-left: 16rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\nmargin-left: 16rem;",
       "answer": "ml7",
       "categories": [
         "Margin"
@@ -1969,7 +1969,7 @@ module.exports = {
     },
     {
       "id": 219,
-      "question": "margin-left: 0; margin-right: 0;",
+      "question": "margin-left: 0;\nmargin-right: 0;",
       "answer": "mh0",
       "categories": [
         "Margin"
@@ -1978,7 +1978,7 @@ module.exports = {
     },
     {
       "id": 220,
-      "question": "margin-left: 0.25rem; margin-right: 0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmargin-left: 0.25rem;\nmargin-right: 0.25rem;",
       "answer": "mh1",
       "categories": [
         "Margin"
@@ -1987,7 +1987,7 @@ module.exports = {
     },
     {
       "id": 221,
-      "question": "margin-left: 0.5rem; margin-right: 0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmargin-left: 0.5rem;\nmargin-right: 0.5rem;",
       "answer": "mh2",
       "categories": [
         "Margin"
@@ -1996,7 +1996,7 @@ module.exports = {
     },
     {
       "id": 222,
-      "question": "margin-left: 1rem; margin-right: 1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmargin-left: 1rem;\nmargin-right: 1rem;",
       "answer": "mh3",
       "categories": [
         "Margin"
@@ -2005,7 +2005,7 @@ module.exports = {
     },
     {
       "id": 223,
-      "question": "margin-left: 2rem; margin-right: 2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmargin-left: 2rem;\nmargin-right: 2rem;",
       "answer": "mh4",
       "categories": [
         "Margin"
@@ -2014,7 +2014,7 @@ module.exports = {
     },
     {
       "id": 224,
-      "question": "margin-left: 4rem; margin-right: 4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmargin-left: 4rem;\nmargin-right: 4rem;",
       "answer": "mh5",
       "categories": [
         "Margin"
@@ -2023,7 +2023,7 @@ module.exports = {
     },
     {
       "id": 225,
-      "question": "margin-left: 8rem; margin-right: 8rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\nmargin-left: 8rem;\nmargin-right: 8rem;",
       "answer": "mh6",
       "categories": [
         "Margin"
@@ -2032,7 +2032,7 @@ module.exports = {
     },
     {
       "id": 226,
-      "question": "margin-left: 16rem; margin-right: 16rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\nmargin-left: 16rem;\nmargin-right: 16rem;",
       "answer": "mh7",
       "categories": [
         "Margin"
@@ -2041,7 +2041,7 @@ module.exports = {
     },
     {
       "id": 227,
-      "question": "margin-left: auto; margin-right: auto;",
+      "question": "margin-left: auto;\nmargin-right: auto;",
       "answer": "mh-auto",
       "categories": [
         "Margin"
@@ -2050,7 +2050,7 @@ module.exports = {
     },
     {
       "id": 228,
-      "question": "margin-left: auto; margin-right: auto;",
+      "question": "margin-left: auto;\nmargin-right: auto;",
       "answer": "center",
       "categories": [
         "Margin"
@@ -2059,7 +2059,7 @@ module.exports = {
     },
     {
       "id": 229,
-      "question": "margin-top: 0; margin-bottom: 0;",
+      "question": "margin-top: 0;\nmargin-bottom: 0;",
       "answer": "mv0",
       "categories": [
         "Margin"
@@ -2068,7 +2068,7 @@ module.exports = {
     },
     {
       "id": 230,
-      "question": "margin-top: 0.25rem; margin-bottom: 0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmargin-top: 0.25rem;\nmargin-bottom: 0.25rem;",
       "answer": "mv1",
       "categories": [
         "Margin"
@@ -2077,7 +2077,7 @@ module.exports = {
     },
     {
       "id": 231,
-      "question": "margin-top: 0.5rem; margin-bottom: 0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmargin-top: 0.5rem;\nmargin-bottom: 0.5rem;",
       "answer": "mv2",
       "categories": [
         "Margin"
@@ -2086,7 +2086,7 @@ module.exports = {
     },
     {
       "id": 232,
-      "question": "margin-top: 1rem; margin-bottom: 1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmargin-top: 1rem;\nmargin-bottom: 1rem;",
       "answer": "mv3",
       "categories": [
         "Margin"
@@ -2095,7 +2095,7 @@ module.exports = {
     },
     {
       "id": 233,
-      "question": "margin-top: 2rem; margin-bottom: 2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmargin-top: 2rem;\nmargin-bottom: 2rem;",
       "answer": "mv4",
       "categories": [
         "Margin"
@@ -2104,7 +2104,7 @@ module.exports = {
     },
     {
       "id": 234,
-      "question": "margin-top: 4rem; margin-bottom: 4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmargin-top: 4rem;\nmargin-bottom: 4rem;",
       "answer": "mv5",
       "categories": [
         "Margin"
@@ -2113,7 +2113,7 @@ module.exports = {
     },
     {
       "id": 235,
-      "question": "margin-top: 8rem; margin-bottom: 8rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\nmargin-top: 8rem;\nmargin-bottom: 8rem;",
       "answer": "mv6",
       "categories": [
         "Margin"
@@ -2122,7 +2122,7 @@ module.exports = {
     },
     {
       "id": 236,
-      "question": "margin-top: 16rem; margin-bottom: 16rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\nmargin-top: 16rem;\nmargin-bottom: 16rem;",
       "answer": "mv7",
       "categories": [
         "Margin"
@@ -2131,7 +2131,7 @@ module.exports = {
     },
     {
       "id": 237,
-      "question": "margin: -0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmargin: -0.25rem;",
       "answer": "n1",
       "categories": [
         "Margin"
@@ -2140,7 +2140,7 @@ module.exports = {
     },
     {
       "id": 238,
-      "question": "margin: -0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmargin: -0.5rem;",
       "answer": "n2",
       "categories": [
         "Margin"
@@ -2149,7 +2149,7 @@ module.exports = {
     },
     {
       "id": 239,
-      "question": "margin: -1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmargin: -1rem;",
       "answer": "n3",
       "categories": [
         "Margin"
@@ -2158,7 +2158,7 @@ module.exports = {
     },
     {
       "id": 240,
-      "question": "margin: -2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmargin: -2rem;",
       "answer": "n4",
       "categories": [
         "Margin"
@@ -2167,7 +2167,7 @@ module.exports = {
     },
     {
       "id": 241,
-      "question": "margin: -4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmargin: -4rem;",
       "answer": "n5",
       "categories": [
         "Margin"
@@ -2176,7 +2176,7 @@ module.exports = {
     },
     {
       "id": 242,
-      "question": "margin-top: -0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmargin-top: -0.25rem;",
       "answer": "nt1",
       "categories": [
         "Margin"
@@ -2185,7 +2185,7 @@ module.exports = {
     },
     {
       "id": 243,
-      "question": "margin-top: -0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmargin-top: -0.5rem;",
       "answer": "nt2",
       "categories": [
         "Margin"
@@ -2194,7 +2194,7 @@ module.exports = {
     },
     {
       "id": 244,
-      "question": "margin-top: -1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmargin-top: -1rem;",
       "answer": "nt3",
       "categories": [
         "Margin"
@@ -2203,7 +2203,7 @@ module.exports = {
     },
     {
       "id": 245,
-      "question": "margin-top: -2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmargin-top: -2rem;",
       "answer": "nt4",
       "categories": [
         "Margin"
@@ -2212,7 +2212,7 @@ module.exports = {
     },
     {
       "id": 246,
-      "question": "margin-top: -4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmargin-top: -4rem;",
       "answer": "nt5",
       "categories": [
         "Margin"
@@ -2221,7 +2221,7 @@ module.exports = {
     },
     {
       "id": 247,
-      "question": "margin-right: -0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmargin-right: -0.25rem;",
       "answer": "nr1",
       "categories": [
         "Margin"
@@ -2230,7 +2230,7 @@ module.exports = {
     },
     {
       "id": 248,
-      "question": "margin-right: -0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmargin-right: -0.5rem;",
       "answer": "nr2",
       "categories": [
         "Margin"
@@ -2239,7 +2239,7 @@ module.exports = {
     },
     {
       "id": 249,
-      "question": "margin-right: -1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmargin-right: -1rem;",
       "answer": "nr3",
       "categories": [
         "Margin"
@@ -2248,7 +2248,7 @@ module.exports = {
     },
     {
       "id": 250,
-      "question": "margin-right: -2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmargin-right: -2rem;",
       "answer": "nr4",
       "categories": [
         "Margin"
@@ -2257,7 +2257,7 @@ module.exports = {
     },
     {
       "id": 251,
-      "question": "margin-right: -4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmargin-right: -4rem;",
       "answer": "nr5",
       "categories": [
         "Margin"
@@ -2266,7 +2266,7 @@ module.exports = {
     },
     {
       "id": 252,
-      "question": "margin-bottom: -0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmargin-bottom: -0.25rem;",
       "answer": "nb1",
       "categories": [
         "Margin"
@@ -2275,7 +2275,7 @@ module.exports = {
     },
     {
       "id": 253,
-      "question": "margin-bottom: -0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmargin-bottom: -0.5rem;",
       "answer": "nb2",
       "categories": [
         "Margin"
@@ -2284,7 +2284,7 @@ module.exports = {
     },
     {
       "id": 254,
-      "question": "margin-bottom: -1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmargin-bottom: -1rem;",
       "answer": "nb3",
       "categories": [
         "Margin"
@@ -2293,7 +2293,7 @@ module.exports = {
     },
     {
       "id": 255,
-      "question": "margin-bottom: -2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmargin-bottom: -2rem;",
       "answer": "nb4",
       "categories": [
         "Margin"
@@ -2302,7 +2302,7 @@ module.exports = {
     },
     {
       "id": 256,
-      "question": "margin-bottom: -4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmargin-bottom: -4rem;",
       "answer": "nb5",
       "categories": [
         "Margin"
@@ -2311,7 +2311,7 @@ module.exports = {
     },
     {
       "id": 257,
-      "question": "margin-left: -0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmargin-left: -0.25rem;",
       "answer": "nl1",
       "categories": [
         "Margin"
@@ -2320,7 +2320,7 @@ module.exports = {
     },
     {
       "id": 258,
-      "question": "margin-left: -0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmargin-left: -0.5rem;",
       "answer": "nl2",
       "categories": [
         "Margin"
@@ -2329,7 +2329,7 @@ module.exports = {
     },
     {
       "id": 259,
-      "question": "margin-left: -1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmargin-left: -1rem;",
       "answer": "nl3",
       "categories": [
         "Margin"
@@ -2338,7 +2338,7 @@ module.exports = {
     },
     {
       "id": 260,
-      "question": "margin-left: -2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmargin-left: -2rem;",
       "answer": "nl4",
       "categories": [
         "Margin"
@@ -2347,7 +2347,7 @@ module.exports = {
     },
     {
       "id": 261,
-      "question": "margin-left: -4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmargin-left: -4rem;",
       "answer": "nl5",
       "categories": [
         "Margin"
@@ -2356,7 +2356,7 @@ module.exports = {
     },
     {
       "id": 262,
-      "question": "margin-left: -0.25rem; margin-right: -0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmargin-left: -0.25rem;\nmargin-right: -0.25rem;",
       "answer": "nh1",
       "categories": [
         "Margin"
@@ -2365,7 +2365,7 @@ module.exports = {
     },
     {
       "id": 263,
-      "question": "margin-left: -0.5rem; margin-right: -0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmargin-left: -0.5rem;\nmargin-right: -0.5rem;",
       "answer": "nh2",
       "categories": [
         "Margin"
@@ -2374,7 +2374,7 @@ module.exports = {
     },
     {
       "id": 264,
-      "question": "margin-left: -1rem; margin-right: -1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmargin-left: -1rem;\nmargin-right: -1rem;",
       "answer": "nh3",
       "categories": [
         "Margin"
@@ -2383,7 +2383,7 @@ module.exports = {
     },
     {
       "id": 265,
-      "question": "margin-left: -2rem; margin-right: -2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmargin-left: -2rem;\nmargin-right: -2rem;",
       "answer": "nh4",
       "categories": [
         "Margin"
@@ -2392,7 +2392,7 @@ module.exports = {
     },
     {
       "id": 266,
-      "question": "margin-left: -4rem; margin-right: -4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmargin-left: -4rem;\nmargin-right: -4rem;",
       "answer": "nh5",
       "categories": [
         "Margin"
@@ -2401,7 +2401,7 @@ module.exports = {
     },
     {
       "id": 267,
-      "question": "margin-top: -0.25rem; margin-bottom: -0.25rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmargin-top: -0.25rem;\nmargin-bottom: -0.25rem;",
       "answer": "nv1",
       "categories": [
         "Margin"
@@ -2410,7 +2410,7 @@ module.exports = {
     },
     {
       "id": 268,
-      "question": "margin-top: -0.5rem; margin-bottom: -0.5rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmargin-top: -0.5rem;\nmargin-bottom: -0.5rem;",
       "answer": "nv2",
       "categories": [
         "Margin"
@@ -2419,7 +2419,7 @@ module.exports = {
     },
     {
       "id": 269,
-      "question": "margin-top: -1rem; margin-bottom: -1rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmargin-top: -1rem;\nmargin-bottom: -1rem;",
       "answer": "nv3",
       "categories": [
         "Margin"
@@ -2428,7 +2428,7 @@ module.exports = {
     },
     {
       "id": 270,
-      "question": "margin-top: -2rem; margin-bottom: -2rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmargin-top: -2rem;\nmargin-bottom: -2rem;",
       "answer": "nv4",
       "categories": [
         "Margin"
@@ -2437,7 +2437,7 @@ module.exports = {
     },
     {
       "id": 271,
-      "question": "margin-top: -4rem; margin-bottom: -4rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmargin-top: -4rem;\nmargin-bottom: -4rem;",
       "answer": "nv5",
       "categories": [
         "Margin"
@@ -2455,7 +2455,7 @@ module.exports = {
     },
     {
       "id": 273,
-      "question": "width: 1rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nwidth: 1rem;",
       "answer": "w1",
       "categories": [
         "Width"
@@ -2464,7 +2464,7 @@ module.exports = {
     },
     {
       "id": 274,
-      "question": "width: 2rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nwidth: 2rem;",
       "answer": "w2",
       "categories": [
         "Width"
@@ -2473,7 +2473,7 @@ module.exports = {
     },
     {
       "id": 275,
-      "question": "width: 4rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nwidth: 4rem;",
       "answer": "w3",
       "categories": [
         "Width"
@@ -2482,7 +2482,7 @@ module.exports = {
     },
     {
       "id": 276,
-      "question": "width: 8rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nwidth: 8rem;",
       "answer": "w4",
       "categories": [
         "Width"
@@ -2491,7 +2491,7 @@ module.exports = {
     },
     {
       "id": 277,
-      "question": "width: 16rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nwidth: 16rem;",
       "answer": "w5",
       "categories": [
         "Width"
@@ -2500,7 +2500,7 @@ module.exports = {
     },
     {
       "id": 278,
-      "question": "width: 32rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\nwidth: 32rem;",
       "answer": "w6",
       "categories": [
         "Width"
@@ -2698,7 +2698,7 @@ module.exports = {
     },
     {
       "id": 300,
-      "question": "max-width: 1rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nmax-width: 1rem;",
       "answer": "mw1",
       "categories": [
         "Max-width"
@@ -2707,7 +2707,7 @@ module.exports = {
     },
     {
       "id": 301,
-      "question": "max-width: 2rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nmax-width: 2rem;",
       "answer": "mw2",
       "categories": [
         "Max-width"
@@ -2716,7 +2716,7 @@ module.exports = {
     },
     {
       "id": 302,
-      "question": "max-width: 4rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nmax-width: 4rem;",
       "answer": "mw3",
       "categories": [
         "Max-width"
@@ -2725,7 +2725,7 @@ module.exports = {
     },
     {
       "id": 303,
-      "question": "max-width: 8rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nmax-width: 8rem;",
       "answer": "mw4",
       "categories": [
         "Max-width"
@@ -2734,7 +2734,7 @@ module.exports = {
     },
     {
       "id": 304,
-      "question": "max-width: 16rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nmax-width: 16rem;",
       "answer": "mw5",
       "categories": [
         "Max-width"
@@ -2743,7 +2743,7 @@ module.exports = {
     },
     {
       "id": 305,
-      "question": "max-width: 32rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\nmax-width: 32rem;",
       "answer": "mw6",
       "categories": [
         "Max-width"
@@ -2752,7 +2752,7 @@ module.exports = {
     },
     {
       "id": 306,
-      "question": "max-width: 48rem; /* 7th step in size scale */",
+      "question": "/* 7th step in size scale */\nmax-width: 48rem;",
       "answer": "mw7",
       "categories": [
         "Max-width"
@@ -2761,7 +2761,7 @@ module.exports = {
     },
     {
       "id": 307,
-      "question": "max-width: 64rem; /* 8th step in size scale */",
+      "question": "/* 8th step in size scale */\nmax-width: 64rem;",
       "answer": "mw8",
       "categories": [
         "Max-width"
@@ -2770,7 +2770,7 @@ module.exports = {
     },
     {
       "id": 308,
-      "question": "max-width: 96rem; /* 9th step in size scale */",
+      "question": "/* 9th step in size scale */\nmax-width: 96rem;",
       "answer": "mw9",
       "categories": [
         "Max-width"
@@ -2806,7 +2806,7 @@ module.exports = {
     },
     {
       "id": 312,
-      "question": "height: 1rem; /* 1st step in size scale */",
+      "question": "/* 1st step in size scale */\nheight: 1rem;",
       "answer": "h1",
       "categories": [
         "Height"
@@ -2815,7 +2815,7 @@ module.exports = {
     },
     {
       "id": 313,
-      "question": "height: 2rem; /* 2nd step in size scale */",
+      "question": "/* 2nd step in size scale */\nheight: 2rem;",
       "answer": "h2",
       "categories": [
         "Height"
@@ -2824,7 +2824,7 @@ module.exports = {
     },
     {
       "id": 314,
-      "question": "height: 4rem; /* 3rd step in size scale */",
+      "question": "/* 3rd step in size scale */\nheight: 4rem;",
       "answer": "h3",
       "categories": [
         "Height"
@@ -2833,7 +2833,7 @@ module.exports = {
     },
     {
       "id": 315,
-      "question": "height: 8rem; /* 4th step in size scale */",
+      "question": "/* 4th step in size scale */\nheight: 8rem;",
       "answer": "h4",
       "categories": [
         "Height"
@@ -2842,7 +2842,7 @@ module.exports = {
     },
     {
       "id": 316,
-      "question": "height: 16rem; /* 5th step in size scale */",
+      "question": "/* 5th step in size scale */\nheight: 16rem;",
       "answer": "h5",
       "categories": [
         "Height"
@@ -2851,7 +2851,7 @@ module.exports = {
     },
     {
       "id": 317,
-      "question": "height: 32rem; /* 6th step in size scale */",
+      "question": "/* 6th step in size scale */\nheight: 32rem;",
       "answer": "h6",
       "categories": [
         "Height"
@@ -3364,7 +3364,7 @@ module.exports = {
     },
     {
       "id": 374,
-      "question": "content: \"\"; display: block; clear: both;",
+      "question": "content: \"\";\ndisplay: block;\nclear: both;",
       "answer": "clearfix::after",
       "categories": [
         "Float"
@@ -3436,7 +3436,7 @@ module.exports = {
     },
     {
       "id": 382,
-      "question": "border-bottom-right-radius: 0; border-bottom-left-radius: 0;",
+      "question": "border-bottom-right-radius: 0;\nborder-bottom-left-radius: 0;",
       "answer": "br--top",
       "categories": [
         "Border-radius"
@@ -3445,7 +3445,7 @@ module.exports = {
     },
     {
       "id": 383,
-      "question": "border-top-left-radius: 0; border-bottom-left-radius: 0;",
+      "question": "border-top-left-radius: 0;\nborder-bottom-left-radius: 0;",
       "answer": "br--right",
       "categories": [
         "Border-radius"
@@ -3454,7 +3454,7 @@ module.exports = {
     },
     {
       "id": 384,
-      "question": "border-top-right-radius: 0; border-top-left-radius: 0;",
+      "question": "border-top-right-radius: 0;\nborder-top-left-radius: 0;",
       "answer": "br--bottom",
       "categories": [
         "Border-radius"
@@ -3463,7 +3463,7 @@ module.exports = {
     },
     {
       "id": 385,
-      "question": "border-top-right-radius: 0; border-bottom-right-radius: 0;",
+      "question": "border-top-right-radius: 0;\nborder-bottom-right-radius: 0;",
       "answer": "br--left",
       "categories": [
         "Border-radius"
