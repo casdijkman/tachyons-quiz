@@ -7,9 +7,9 @@ It's a great way to learn Tachyons class names!
 
 ## Development
 
-`npm i`
+`yarn`
 
-`npm start`
+`yarn start`
 
 Development server running at `localhost:3000`
 
