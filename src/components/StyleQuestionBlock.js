@@ -63,7 +63,7 @@ const StyleQuestionBlock = React.createClass({
         <code className="db w-100 bg-white-03">
           <form onSubmit={this.onSubmit} className="dib green">
             .<input
-              className="w1 outline-0 b--none pa0 bg-transparent green"
+              className="w1 outline-0 bn pa0 bg-transparent green"
               type="text"
               value={this.state.answer}
               onChange={this.onAnswerChange}

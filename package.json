@@ -1,10 +1,12 @@
 {
-  "name": "tachyonspro",
+  "name": "c4s-pro",
   "version": "1.0.0",
   "author": "mkwng",
   "homepage": "https://cdijkman.nl/apps/c4s-pro",
   "devDependencies": {
-    "react-scripts": "3.0.1"
+    "@casd/c4s": "^0.6.1",
+    "react-scripts": "3.0.1",
+    "sass": "^1.77.6"
   },
   "dependencies": {
     "jquery": "^3.4.0",
@@ -18,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "css": "tachyons src/css/app.css > src/index.css --minify"
+    "css": "sass -s compressed --no-source-map src/scss/main.scss src/index.css"
   },
   "browserslist": {
     "production": [

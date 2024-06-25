@@ -7,8 +7,8 @@ const myData = JSON.parse(localStorage.getItem('tachyonsQuiz')) || { score: 0, l
 class App extends Component {
   render() {
     return (
-      <div className="vh-100 pa4 mw7 center">
-        <h1 className="f5 mt3 mb4 sans-serif">
+      <div className="vh-100 p3 p4-m mw8 center">
+        <h1 className="f3 mt3 mb4 sans-serif">
           Are you a C4S Pro?
         </h1>
 

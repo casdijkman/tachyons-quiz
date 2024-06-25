@@ -168,12 +168,9 @@ const TerminalWindow = React.createClass({
   },
 
   render: function () {
-    const classes = 'w-100 vh-50 bg-grey3 grey1 overflow-hidden br3 relative';
-    const styles = {
-      boxShadow: 'rgba(0,0,0,.08) 16px 16px 0'
-    };
+    const classes = 'terminal-window w-100 vh-50 bg-grey3 grey1 overflow-hidden br3 relative';
     return (
-      <div className={classes} style={styles}>
+      <div className={classes}>
         <TerminalWindowHeader />
 
         <div

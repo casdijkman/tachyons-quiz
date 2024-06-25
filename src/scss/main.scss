@@ -1,0 +1,141 @@
+@use '../../node_modules/@casd/c4s/src/c4s';
+@use './tooltip';
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.material-icons {
+    font-size: inherit;
+}
+
+.code,
+code {
+    font-family: Source Code Pro;
+}
+
+.lighter {
+    color: #E7E8EA
+}
+
+.light {
+    color: #D1D2D4
+}
+
+.grey4 {
+    color: #21252B
+}
+
+.grey3 {
+    color: #282C34
+}
+
+.grey2 {
+    color: #5C6370
+}
+
+.grey1 {
+    color: #A6B2BF
+}
+
+.green {
+    color: #46BB86
+}
+
+.blue {
+    color: #41BDFF
+}
+
+.orange {
+    color: #F99728
+}
+
+
+.bg-lighter {
+    background-color: #E7E8EA
+}
+
+.bg-light {
+    background-color: #D1D2D4
+}
+
+.bg-grey4 {
+    background-color: #21252B
+}
+
+.bg-grey3 {
+    background-color: #282C34
+}
+
+.bg-grey2 {
+    background-color: #5C6370
+}
+
+.bg-grey1 {
+    background-color: #A6B2BF
+}
+
+.bg-green {
+    background-color: #46BB86
+}
+
+.bg-blue {
+    background-color: #41BDFF
+}
+
+.bg-orange {
+    background-color: #F99728
+}
+
+.bg-white-03 {
+    background-color: rgba(255, 255, 255, .03);
+}
+
+code.language-css {
+    color: #F99728
+}
+
+code.language-css .token.property,
+.language-css .token.punctuation {
+    color: #A6B2BF
+}
+
+code.language-css .token.comment {
+    color: #5C6370
+}
+
+code {
+    counter-increment: a;
+}
+
+code:before {
+    content: counter(a);
+    user-select: none;
+    color: #5C6370;
+    font-style: normal;
+    width: 4ch;
+    display: inline-block;
+    overflow: hidden;
+    opacity: .5;
+}
+
+code.language-css:before {
+    width: 7ch;
+}
+
+pre.active code.language-css {
+    background-color: rgba(255, 255, 255, .05);
+}
+
+@media only screen and (min-width: 40em) {
+    .terminal-window {
+        box-shadow: rgba(0, 0, 0, 0.08) 16px 16px 0px;
+    }
+}
+
+.outline-0 {
+    outline: 0;
+}
