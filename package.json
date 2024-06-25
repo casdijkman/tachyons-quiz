@@ -6,7 +6,10 @@
   "devDependencies": {
     "@casd/c4s": "^0.6.1",
     "react-scripts": "3.0.1",
-    "sass": "^1.77.6"
+    "sass": "^1.77.6",
+    "stylelint": "^13.0.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-scss": "^3.13.0"
   },
   "dependencies": {
     "jquery": "^3.4.0",
@@ -20,7 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "css": "sass -s compressed --no-source-map src/scss/main.scss src/index.css"
+    "scss": "sass -s compressed --no-source-map src/scss/main.scss src/index.css",
+    "lint:scss": "stylelint src/**/*.scss"
   },
   "browserslist": {
     "production": [
