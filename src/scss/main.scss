@@ -127,6 +127,10 @@ pre.active code.language-css {
   background-color: rgba(255, 255, 255, .05);
 }
 
+.terminal-window {
+  min-height: 32rem;
+}
+
 @media only screen and (min-width: 40em) {
   .terminal-window {
     box-shadow: rgba(0, 0, 0, .08) 16px 16px 0;
