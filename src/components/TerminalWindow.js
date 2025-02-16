@@ -81,7 +81,11 @@ const TerminalWindow = React.createClass({
   onAnswer: function (userAnswer) {
     this.state.currentQuestionOwn.seen += 1;
 
-    if (userAnswer === this.state.currentQuestionTachyons.answer) {
+    const answerCorrect = Array.isArray(this.state.currentQuestionTachyons.answer) 
+      ? this.state.currentQuestionTachyons.answer.includes(userAnswer)
+      : this.state.currentQuestionTachyons.answer === userAnswer;
+
+    if (answerCorrect) {
       console.log('Correct');
       this.state.currentQuestionOwn.proficiency += 1;
       this.state.currentQuestionOwn.correct += 1;

@@ -49,7 +49,9 @@ const StyleQuestionBlock = React.createClass({
   },
 
   render: function () {
-    const isCorrect = this.props.answer === this.props.tachyonsStyle.answer;
+    const isCorrect = Array.isArray(this.props.tachyonsStyle.answer)
+      ? this.props.tachyonsStyle.answer.includes(this.props.answer)
+      : this.props.tachyonsStyle.answer === this.props.answer;
     const comment = (
       <code className="db w-100 grey2">
         {'// '}
