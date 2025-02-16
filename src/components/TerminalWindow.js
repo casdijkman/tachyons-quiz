@@ -79,6 +79,7 @@ const TerminalWindow = React.createClass({
   },
 
   onAnswer: function (userAnswer) {
+    userAnswer = userAnswer.trim();
     this.state.currentQuestionOwn.seen += 1;
 
     const answerCorrect = Array.isArray(this.state.currentQuestionTachyons.answer) 
