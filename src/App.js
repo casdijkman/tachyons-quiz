@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import TerminalWindow from './components/TerminalWindow';
 const QUESTIONS = require('./data/questions.js').questions;
-const version = `C4S version ${require('../package.json').version}`;
+const version = require('./data/questions.js').version;
+const versionString = `C4S version ${version}`;
 
 const myData = JSON.parse(localStorage.getItem('tachyonsQuiz')) || { score: 0, log: [], questions: [] };
 
@@ -9,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="vh-100 p3 p4-m mw8 center">
-        <h1 className="f3 mt3 mb4 sans-serif" title={version}>
+        <h1 className="f3 mt3 mb4 sans-serif" title={versionString}>
           Are you a C4S Pro?
         </h1>
 
