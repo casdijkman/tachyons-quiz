@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 // Questions for C4S pro quiz/game
-// C4S version: 0.6.6
+// C4S version: 0.6.7
 
 module.exports = {
   "questions": [
@@ -3774,5 +3774,5 @@ module.exports = {
       "id": 414
     }
   ],
-  "version": "0.6.6"
+  "version": "0.6.7"
 };
