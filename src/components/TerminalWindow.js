@@ -6,9 +6,8 @@ const _ = require('lodash');
 const jQuery = require('jquery');
 
 const TerminalWindowHeader = () => {
-  const classes = 'absolute top-0 left-0 w-100 h2 bg-light z-1';
   return (
-    <div className={classes}>
+    <div className={"absolute top-0 left-0 w-100 h2 bg-light z-1"}>
       <span className="w1 h1 br-100 bg-lighter dib mv2 mr1 ml2"></span>
       <span className="w1 h1 br-100 bg-lighter dib mv2 mh1"></span>
       <span className="w1 h1 br-100 bg-lighter dib mv2 mh1"></span>
@@ -21,7 +20,6 @@ const TerminalWindowFooter = React.createClass({
     this.props.reset();
   },
   render: function () {
-    const classes = 'absolute bottom-0 left-0 w-100 h2 bg-grey4 f6 flex justify-between items-center';
     const percentageCorrect = Math.round(
       (
         this.props.questionLog.seen > 1
@@ -30,7 +28,7 @@ const TerminalWindowFooter = React.createClass({
       ) * 100
     );
     return (
-      <div className={classes}>
+      <div className={"absolute bottom-0 left-0 w-100 h2 bg-grey4 f6 flex justify-between items-center"}>
         <div className="flex items-center">
           <span
             className="grey2 mh2"
@@ -82,7 +80,7 @@ const TerminalWindow = React.createClass({
     userAnswer = userAnswer.trim();
     this.state.currentQuestionOwn.seen += 1;
 
-    const answerCorrect = Array.isArray(this.state.currentQuestionTachyons.answer) 
+    const answerCorrect = Array.isArray(this.state.currentQuestionTachyons.answer)
       ? this.state.currentQuestionTachyons.answer.includes(userAnswer)
       : this.state.currentQuestionTachyons.answer === userAnswer;
 
@@ -179,7 +177,7 @@ const TerminalWindow = React.createClass({
         <TerminalWindowHeader />
 
         <div
-          className="w-100 h-100 overflow-hidden pv4"
+          className="w-100 h-100 overflow-y-hidden pv4"
           ref={(div) => { this.scrollWindow = div; }}
         >
           <div
