@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 // Questions for C4S pro quiz/game
-// C4S version: 0.6.7
+// C4S version: 0.6.9
 
 module.exports = {
   "questions": [
@@ -3316,7 +3316,7 @@ module.exports = {
     },
     {
       "question": "content: \"\";\ndisplay: block;\nclear: both;",
-      "answer": "clearfix::after",
+      "answer": "clearfix",
       "categories": [
         "Float"
       ],
@@ -3774,5 +3774,5 @@ module.exports = {
       "id": 414
     }
   ],
-  "version": "0.6.7"
+  "version": "0.6.9"
 };
